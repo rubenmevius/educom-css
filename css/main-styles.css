@@ -1,0 +1,40 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 40px;
+}
+
+.content {
+    background-color: greenyellow;
+    padding: 40px;
+}
+
+.block {
+    background-color: orange;
+    display: inline-block;
+    width: 32%;
+    height: 150px;
+    margin: 5px;
+    border: 10px solid transparent;
+    border-radius: 5%;
+    transition: all 0.2s ease;
+}
+
+.block:hover {
+    border: 5px;
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 10px -14px 37px 5px rgba(0,0,0,0.15); 
+box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 10px -14px 37px 5px rgba(0,0,0,0.15);
+}
+
+.footer {
+    background-color: aliceblue;
+    color: blueviolet;
+    padding: 40px;
+}
