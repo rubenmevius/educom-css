@@ -5,7 +5,7 @@
 }
 
 .menu-trigger {
-    background-color: #F00;
+    background-color: white;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -27,7 +27,7 @@
     left: 0;
     right: 0;
     height: 200px;
-    background-color: #FDF;
+    background-color: rgba(146, 146, 146, 0.672);
     transition: all 0.4s ease;
     padding: 40px;
 }
