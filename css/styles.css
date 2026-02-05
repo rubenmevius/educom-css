@@ -1,70 +1,23 @@
-.red-square {
-    width:80px;
-    height: 80px;
-    color: #FFF;
-    padding: 20px;
-    margin: 10px;
-    font-size: 14px;
-    background-color: rgba(255,0,0,0.4);
-    display: inline-block;
+:root {
+    --regular: "Arial";
+
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
 }
 
-.big-blue-box {
-    width: 200px;
-    heigth: 400px;
-    padding: 20px;
-    margin: 10px;
-    display: inline-block;
-    background-color: blue;
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
 }
-
-.small-red-text {
-    color: red;
-    font-size: 8px;
-}
-
-a   {
-    font-size: 22px;
-    color: rgb(255, 13, 0);
-}
-
-.cascading-parent h2 {
-    color: rgb(9, 255, 0);
-}
-
-.cascading-parent a {
-    font-size: 32px;
-    color: #ffff55;
-}
-
-.site-font {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.site-color {
-    background-color: indigo;
-    color:#FFF;
-}
-
-.site-square {
-    width: 200px;
-    height: 200px;
-}
-
-/* unvisited link */
-a:link{
-    color: red;
-}
-
-a:visited{
-    color:green;
-}
-
-a:hover {
-    color:hotpink;
-}
-
-a:active {
-    color: blue;
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--lighter-brown)
 }
