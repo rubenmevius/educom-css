@@ -51,3 +51,20 @@ a   {
     width: 200px;
     height: 200px;
 }
+
+/* unvisited link */
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover {
+    color:hotpink;
+}
+
+a:active {
+    color: blue;
+}
