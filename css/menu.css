@@ -5,8 +5,8 @@
 }
 
 .menu-trigger {
-    background-color: white;
-    width: 40px;
+    background-color: transparent;
+    width: 90px;
     height: 40px;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -14,7 +14,8 @@
 }
 
 .menu-trigger:hover {
-    background-color: #FFF000;
+    background-color: rgba(146, 146, 146, 0.778);
+    border-radius: 10px;
 }
 
 .menu-trigger:hover .dropdown {
@@ -27,7 +28,7 @@
     left: 0;
     right: 0;
     height: 200px;
-    background-color: rgba(146, 146, 146, 0.672);
+    background-color: rgba(178, 178, 178, 0.765);
     transition: all 0.4s ease;
     padding: 40px;
 }
